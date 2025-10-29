@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1a1a1a, #111);
+  color: #eee;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.dashboard {
+  display: flex;                 
+  flex-direction: row;
+  justify-content: space-between; /* space between left/right boxes */
+  align-items: flex-start;        /* top-align both boxes */
+  gap: 20px;
+  flex-wrap: nowrap;              /* don’t let them wrap */
+}
+
+.box {
+  width: 48%;                    
+  min-width: 300px;               /* prevent shrinking too much */
+  background: rgba(30, 30, 30, 0.7);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+canvas {
+  background: rgba(0, 0, 0, 0); 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  text-align: center;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}

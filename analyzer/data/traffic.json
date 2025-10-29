@@ -1,0 +1,31 @@
+{
+  "packet_count": {
+    "192.168.1.56": 632,
+    "192.168.1.1": 9,
+    "17.248.199.69": 11,
+    "17.248.199.52": 25,
+    "17.253.3.138": 9,
+    "17.248.232.10": 120,
+    "17.248.199.28": 25,
+    "40.82.255.130": 12,
+    "142.251.35.164": 1,
+    "104.18.32.47": 9,
+    "172.217.74.94": 33,
+    "17.57.144.55": 97,
+    "104.18.32.187": 10,
+    "3.216.172.79": 1,
+    "172.64.152.29": 208
+  },
+  "alerts": [
+    "[ALERT \ud83d\udea8] High traffic from 17.248.232.10",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.56",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.56",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.56",
+    "[ALERT \ud83d\udea8] High traffic from 17.248.232.10",
+    "[ALERT \ud83d\udea8] High traffic from 17.248.232.10",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.56",
+    "[ALERT \ud83d\udea8] High traffic from 17.248.232.10",
+    "[ALERT \ud83d\udea8] High traffic from 17.248.232.10",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.56"
+  ]
+}

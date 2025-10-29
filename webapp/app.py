@@ -9,9 +9,9 @@ def index():
 
 @app.route('/data')
 def get_data():
-    with open("data/traffic.json") as f:
+    with open("../data/traffic.json") as f:  # adjust path
         data = json.load(f)
     return jsonify(data)
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
