@@ -7,18 +7,20 @@
   <script src="/static/script.js" defer></script>
   <link rel="stylesheet" href="/static/style.css">
 </head>
-<body style="background-color: #111; color: #eee; text-align: center; font-family: Arial;">
-  <h1> Network Traffic Analyzer</h1>
-  <div class="dashboard">
-    <div class="box" id="chart-box">
-      <h2> Traffic per IP</h2>
-      <canvas id="trafficChart" width="400" height="300"></canvas>
-    </div>
-    </div>
-      <div class="box" id="aler-box">
-        <h2>🚨 Alerts</h2>
+<body>
+  <div class="main-container">
+    <h1>Network Traffic Analyzer</h1>
+    
+    <div class="dashboard">
+      <div class="chart-box" id="chart-box">
+        <h2>Traffic per IP</h2>
+        <canvas id="trafficChart" width="400" height="300"></canvas>
+      </div>
+      <div class="alerts-box" id="alerts-box">
+        <h3>ALERTS</h3>
         <ul id="alerts"></ul>
       </div>
     </div>
+  </div>
 </body>
 </html>

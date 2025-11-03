@@ -17,7 +17,7 @@ async function fetchData() {
       datasets: [{
         label: 'Packets per IP',
         data: counts,
-        backgroundColor: 'rgba(0, 200, 255, 0.7)'
+        backgroundColor: 'rgba(8, 0, 255, 0.7)'
       }]
     },
     options: {
@@ -32,7 +32,7 @@ async function fetchData() {
     }
   });
 
-  // Update alerts
+  
   const alertsList = document.getElementById("alerts");
   alertsList.innerHTML = "";
   data.alerts.forEach(alert => {
@@ -42,5 +42,5 @@ async function fetchData() {
   });
 }
 
-setInterval(fetchData, 3000);
+setInterval(fetchData, 3000000);
 fetchData();
