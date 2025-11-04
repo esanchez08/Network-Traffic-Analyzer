@@ -5,8 +5,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  height: 100vh;
-  overflow: hidden;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,9 +15,10 @@ body {
 
 .main-container{
   width: 95vw;
-  height: 95vh;
+  height: 90vh;
   max-width: 1600px;
-  max-height: 900px;
+  min-height: 40vh;
+  max-height: none;
   padding: 2vh 2vw;
   border-radius: 25px;
   background: rgba(0, 20, 20, 0.35);
@@ -27,7 +29,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2vh;
-  overflow: hidden;
+  overflow: visible;
+  margin: 2vh 0;
 }
 
 
@@ -40,28 +43,21 @@ h1 {
   flex-shrink: 0;
 }
 
-h3 {
-  text-align: left;
-  padding: 5px;
-  margin: 0;
-  color: #8bbea4;
-  font-size: clamp(1rem, 2vh, 1.2rem);
-}
-
 
 .dashboard {
   display: flex;
-  justify-content: center;  
+  justify-content: space-around;  
   align-items: stretch;
   gap: 2vw;                
   width: 100%;
   flex: 1;
   min-height: 0;
+  overflow: hidden;
 }
 
 
 .chart-box {
-  flex: 1;
+  flex: 2;
   max-width: 65%;
   background: rgba(0, 40, 35, 0.35);
   border: 1px solid rgba(0, 255, 200, 0.15);
@@ -73,6 +69,7 @@ h3 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .chart-box:hover {
@@ -82,8 +79,26 @@ h3 {
 }
 
 
+.right-panel{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vh;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.h3 {
+  text-align: left;
+  padding: 10px;
+  margin-top: 5px;
+  margin: 0;
+  color: #8bbea4;
+  font-size: clamp(1rem, 2vh, 1.2rem);
+}
+
 .alerts-box {
-  flex: 0 0 30%;
+  flex: 1;
   max-width: 350px;
   max-height: 40vh;
   background: rgba(0, 40, 35, 0.35);
@@ -96,6 +111,7 @@ h3 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  min-height: 0;
 }
 
 .alerts-box:hover {
@@ -104,12 +120,32 @@ h3 {
   transform: scale(1.02);
 }
 
+.new-box{
+  flex: 1;
+  max-width: 350px;
+  max-height: 40vh;
+  background: rgba(0, 40, 35, 0.35);
+  border: 1px solid rgba(0, 255, 200, 0.15);
+  border-radius: 20px;
+  padding: 2vh 1.5vw;
+  box-shadow: 0 8px 25px rgba(0, 255, 200, 0.05);
+  backdrop-filter: blur(25px);
+  transition: all 0.3s ease;
+  display: flex;
+  overflow: hidden;
+  min-height: 0;
+  
+}
 
-
+.new-box:hover {
+  border-color: rgba(0, 255, 200, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 255, 200, 0.1);
+  transform: scale(1.02);
+}
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 10px;
   text-align: center;
   margin: 0;
   overflow-y: auto;
@@ -127,12 +163,20 @@ li {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.15);
   padding: 1vh 1vw;
-  margin-bottom: 0.5vh;
+  margin-top: 0.6vh;
+  margin-bottom: 0.8vh;
   border-radius: 10px;
   backdrop-filter: blur(5px);
   transition: all 0.3s ease;
   box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.05);
   font-size: clamp(0.8rem, 1.5vh, 1rem);
+  text-align: center;
+}
+
+
+#alerts li {
+  text-align: center;
+  width: 90%;
 }
 
 
