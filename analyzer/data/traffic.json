@@ -1,31 +1,18 @@
 {
   "packet_count": {
-    "192.168.1.58": 340,
-    "34.36.57.103": 69,
-    "192.168.1.1": 5,
-    "54.157.77.66": 15,
-    "18.97.36.17": 2,
-    "142.251.40.132": 3,
-    "142.250.64.78": 51,
-    "142.250.188.22": 28,
-    "63.117.68.82": 4,
-    "40.82.255.130": 18,
-    "17.248.207.130": 5,
-    "142.251.167.188": 1,
-    "104.16.174.226": 1,
-    "172.64.152.29": 1,
-    "3.231.72.45": 1
+    "192.168.1.60": 22,
+    "17.248.228.27": 13
   },
   "alerts": [
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58",
-    "[WARNING \u26a0\ufe0f] Non-HTTPS traffic 192.168.1.58 \u2192 40.82.255.130",
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58",
-    "[WARNING \u26a0\ufe0f] Non-HTTPS traffic 192.168.1.58 \u2192 40.82.255.130",
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58",
-    "[WARNING \u26a0\ufe0f] Non-HTTPS traffic 192.168.1.58 \u2192 40.82.255.130",
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58",
-    "[WARNING \u26a0\ufe0f] Non-HTTPS traffic 192.168.1.58 \u2192 40.82.255.130",
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58",
-    "[ALERT \ud83d\udea8] High traffic from 192.168.1.58"
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60",
+    "[ALERT \ud83d\udea8] High traffic from 192.168.1.60"
   ]
 }
